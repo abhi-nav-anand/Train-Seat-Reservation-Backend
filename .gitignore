@@ -1,0 +1,35 @@
+# Node.js dependencies
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Environment variables
+.env
+
+# Logs
+logs/
+*.log
+
+# Build files
+dist/
+build/
+
+# Vite and React specific files
+.vite/
+.vitepress/
+.vite-inspect/
+
+# Editor and system files
+.DS_Store
+.idea/
+.vscode/
+
+# Coverage reports
+coverage/
+
+# Local database files
+*.sqlite
+*.sqlite-wal
+
+# Docker files
+docker-compose.override.yml
